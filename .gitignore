@@ -1,0 +1,22 @@
+# Your custom virtual environment
+data-quality-monitor/
+
+# (optional but safe)
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Project data
+data/
+reports/
+
+# OS / editor files
+.DS_Store
+.idea/
+.vscode/
