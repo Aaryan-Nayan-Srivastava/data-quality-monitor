@@ -8,12 +8,12 @@ logger=get_logger(__name__)
 def detect_missing_values(df):
     missing={}
     for column in df.columns:
-        missing[column]=df[column].isnull().sum()
+        missing[column]=int(df[column].isnull().sum())
     return missing
 
 # Counts the no of duplicate rows
 def detect_duplicates(df: pd.DataFrame):
-    return df.duplicated().sum()
+    return int(df.duplicated().sum())
 
 # Tells the datatype of all the columns
 def detect_data_types(df:pd.DataFrame):
