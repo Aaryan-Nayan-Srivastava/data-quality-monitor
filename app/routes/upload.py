@@ -17,5 +17,5 @@ def upload_csv(file: UploadFile = File(...)):
     return {
         "file_id": file_id,
         "file_name": file.filename,
-        "Status": "Uploaded"
+        "status": "uploaded"
     }
