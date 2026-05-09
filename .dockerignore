@@ -1,0 +1,20 @@
+# Ignore full venv folder (important)
+data-quality-monitor/
+
+# Just in case (extra safety)
+Lib/
+Scripts/
+Include/
+Library/
+share/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Git & env
+.git
+.gitignore
+.env
+
